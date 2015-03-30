@@ -1,7 +1,7 @@
 require_relative 'menu'
 
 class Menu
-  attr_reader :quantity
+  attr_accessor :quantity
   def initialize
     @quantity = []
   end
